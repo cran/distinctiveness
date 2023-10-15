@@ -14,9 +14,9 @@ distinctiveness(
 \arguments{
 \item{G}{the given graph}
 
-\item{alpha}{the given exponent for punishing highly connected nodes}
+\item{alpha}{the given exponent for penalizing connections to highly connected nodes}
 
-\item{normalize}{when TRUE, the function normalizes output metrics 
+\item{normalize}{when TRUE, the function normalizes output metrics
 to allow for comparison with other graphs. Defaults to FALSE}
 
 \item{measures}{the measures of Distinctiveness Centrality to be computed}
